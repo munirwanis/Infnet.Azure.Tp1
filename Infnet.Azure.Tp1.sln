@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.Azure.Tp1.Presentation", "Infnet.Azure.Tp1.Presentation\Infnet.Azure.Tp1.Presentation.csproj", "{B6DB2F53-5AD6-497A-9B10-DE079E6A78C6}"
 EndProject
@@ -10,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.Azure.Tp1.Domain", "Infnet.Azure.Tp1.Domain\Infnet.Azure.Tp1.Domain.csproj", "{782B40ED-43F0-4A63-BF28-B15922DCCE70}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{23A29636-B878-47C8-AF5A-FCD9C94C9926}"
+	ProjectSection(SolutionItems) = preProject
+		Contacts.csv = Contacts.csv
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infnet.Azure.Tp1.Helpers", "Infnet.Azure.Tp1.Helpers\Infnet.Azure.Tp1.Helpers.csproj", "{D4BB5507-9F29-4081-A195-137B9B5F9F9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +34,10 @@ Global
 		{782B40ED-43F0-4A63-BF28-B15922DCCE70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{782B40ED-43F0-4A63-BF28-B15922DCCE70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{782B40ED-43F0-4A63-BF28-B15922DCCE70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4BB5507-9F29-4081-A195-137B9B5F9F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4BB5507-9F29-4081-A195-137B9B5F9F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4BB5507-9F29-4081-A195-137B9B5F9F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4BB5507-9F29-4081-A195-137B9B5F9F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
