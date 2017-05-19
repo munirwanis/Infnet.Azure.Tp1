@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Infnet.Azure.Tp1.Domain
 {
-    public class Class1
+    public class Contact// : TableEntity
     {
     }
 }

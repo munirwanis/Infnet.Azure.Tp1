@@ -74,6 +74,7 @@
   <ItemGroup>
     <Compile Include="ContactBlobStorageDAO.cs" />
     <Compile Include="ContactTableStorageDAO.cs" />
+    <Compile Include="CSVReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
